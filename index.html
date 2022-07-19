@@ -7,18 +7,7 @@
     <title>jhw portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
-    <script defer>
-        $(function(){
-            $('.mainText').animate({'opacity' : '1','margin-bottom' : '0px'},1000)
-            let mouse = function(){
-            $('.mouseWheel').animate({'top':'15px'},1000)
-            $('.mouseWheel').animate({'top':'5px'},1000)}
-            mouse()
-           setInterval(function(){
-            mouse()
-           },2000)
-        })
-    </script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="main">
@@ -31,7 +20,7 @@
         <h2 class="abouth2">저를 소개합니다!</h2>
         <div class="aboutContainer">
             <div class="imgBox">
-                <img src="./photo.jpeg" alt="myImg" class="aboutImg">
+                <img src="photo.jpeg" alt="myImg" class="aboutImg">
                 <h4>정하원</h4>
                 <p>1996.02.14</p>
             </div>
