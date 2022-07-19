@@ -1,4 +1,4 @@
-
+$(document).ready(function(){
     $('.mainText').animate({'opacity' : '1','margin-bottom' : '0px'},1000)
     let mouse = function(){
     $('.mouseWheel').animate({'top':'15px'},1000)
@@ -7,3 +7,4 @@
    setInterval(function(){
     mouse()
    },2000)
+})

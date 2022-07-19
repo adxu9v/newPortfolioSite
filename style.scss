@@ -2,7 +2,7 @@
 %vwvh100{width: 100vw; height: 100vh;}
 @mixin widthHeight($width,$height) {width: $width; height: $height;}
 *{padding: 0; margin: 0; list-style: none; text-decoration: none; color: inherit;}
-.main{@include widthHeight(100vw,100vh); @extend %flexCenter; background: url(main.jpeg) center no-repeat; background-size: cover; position: relative; color: #fff;}
+.main{@include widthHeight(100vw,100vh); @extend %flexCenter; background: url(img/main.jpeg) center no-repeat; background-size: cover; position: relative; color: #fff;}
 .mainText{opacity: 0; margin-bottom: 30px;}
 .mouse{width: 30px; height: 50px; border-radius: 30px; border: 1px solid #000; position: absolute; bottom: 5%; left: 0; right: 0; margin: auto;}
 .mouseWheel{width: 8px; height: 8px; border-radius: 5px; background-color: #000; position: absolute; top: 5px; left: 0; right: 0; margin: auto;}

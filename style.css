@@ -15,7 +15,7 @@ footer, .list > li, .containerHead, .about, .main {
 .main {
   width: 100vw;
   height: 100vh;
-  background: url(main.jpeg) center no-repeat;
+  background: url(img/main.jpeg) center no-repeat;
   background-size: cover;
   position: relative;
   color: #fff;
@@ -189,4 +189,4 @@ address > ul {
 
 address > ul > li {
   margin: 20px;
-}/*# sourceMappingURL=test.css.map */
+}/*# sourceMappingURL=style.css.map */
