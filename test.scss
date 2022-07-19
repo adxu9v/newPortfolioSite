@@ -1,0 +1,33 @@
+%flexCenter{display: flex; justify-content: center; align-items: center;}
+%vwvh100{width: 100vw; height: 100vh;}
+@mixin widthHeight($width,$height) {width: $width; height: $height;}
+*{padding: 0; margin: 0; list-style: none; text-decoration: none; color: inherit;}
+.main{@include widthHeight(100vw,100vh); @extend %flexCenter; background: url(main.jpeg) center no-repeat; background-size: cover; position: relative; color: #fff;}
+.mainText{opacity: 0; margin-bottom: 30px;}
+.mouse{width: 30px; height: 50px; border-radius: 30px; border: 1px solid #000; position: absolute; bottom: 5%; left: 0; right: 0; margin: auto;}
+.mouseWheel{width: 8px; height: 8px; border-radius: 5px; background-color: #000; position: absolute; top: 5px; left: 0; right: 0; margin: auto;}
+.about{@include widthHeight(100vw,100vh); background-color: yellow; @extend %flexCenter; position: relative;}
+.abouth2{position: absolute; left: 50%; transform: translateX(-50%); top: 50px; font-size: 36px;}
+.aboutContainer{@include widthHeight(80%,60%); padding: 30px; box-sizing: border-box; border-radius: 30px; background-color: #fff; box-shadow: 5px 5px 20px; font-size: 26px; display: flex;}
+.imgBox{width: 30%; text-align: center;}
+.imgBox>*{margin: 10px;}
+.aboutImg{width: 80%;}
+.aboutProducBox>div{padding: 20px;}
+.skill>ul{display: flex;}
+.skill>ul>li{margin: 10px;}
+.containerHead{@include widthHeight(100vw,20vh); @extend %flexCenter; font-size: 40px; background-color: #000; color: #fff;}
+.list>li{position: sticky; top: 0px; margin-top: 40px; @include widthHeight(100vw,100vh); color: #fff; @extend %flexCenter;}
+.list>li:first-child{margin-top: 0;}
+.list>li>*{@include widthHeight(50%,80%); padding: 40px; box-sizing: border-box;}
+.listContentBox{font-size: 20px;}
+.listContentBox>*{margin: 20px;}
+.list>li:nth-child(2n+1){background-color: #000; color: #fff;}
+.list>li:nth-child(2n){background-color: #fff; color: #000;}
+.readMoreBtn{border: 1px solid #aaa; padding: 15px 20px; border-radius: 20px; transition: 0.3s; cursor: pointer; display: inline-block;}
+.readMoreBtn:hover{background-color: #aaa; color: #000;}
+footer{@include widthHeight(100vw,50vh); background-color: #aaa; color: #fff; @extend %flexCenter;}
+footer>div>*{padding: 40px;}
+footer h2{font-size: 40px;}
+footer address{font-size: 30px;  font-style: normal;}
+address>ul{display: flex;}
+address>ul>li{margin: 20px;}

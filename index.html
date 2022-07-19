@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jhw portfolio</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+    <script defer>
+        $(function(){
+            $('.mainText').animate({'opacity' : '1','margin-bottom' : '0px'},1000)
+            let mouse = function(){
+            $('.mouseWheel').animate({'top':'15px'},1000)
+            $('.mouseWheel').animate({'top':'5px'},1000)}
+            mouse()
+           setInterval(function(){
+            mouse()
+           },2000)
+        })
+    </script>
+</head>
+<body>
+    <div class="main">
+        <h2 class="mainText">안녕하세요 신입 웹퍼블리셔 정하원 입니다.</h2>
+        <div class="mouse">
+            <div class="mouseWheel"></div>
+        </div>
+    </div>
+    <div class="about">
+        <h2 class="abouth2">저를 소개합니다!</h2>
+        <div class="aboutContainer">
+            <div class="imgBox">
+                <img src="./사진.jpeg" alt="myImg" class="aboutImg">
+                <h4>정하원</h4>
+                <p>1996.02.14</p>
+            </div>
+            <div class="aboutProducBox">
+                <div class="education">
+                    <h2>education</h2>
+                    <p>2021.11 ~ 2022.04 이젠컴퓨터학원 웹퍼블리셔 과정 수료</p>
+                </div>
+                <div class="license">
+                    <h2>license</h2>
+                    <ul>
+                        <li>gtq 포토샵 1급</li>
+                        <li>gtq 일러스트 1급</li>
+                        <li>운전면허 1종 보통</li>
+                    </ul>
+                </div>
+               <div class="skill">
+                   <h2>skills</h2>
+                <ul >
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                    <li>jquery</li>
+                    <li>react</li>
+                    <li>sass</li>
+                    <li>photoshop</li>
+                    <li>illustrator</li>
+                </ul>
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="containerHead">my portfolio</h2>
+        <ul class="list">
+            <li>
+                <img src="lotte_main.png" alt="lotteMainImg" class="listImg">
+                <div class="listContentBox">
+                    <h2>lotte world</h2>
+                    <p>사용 언어 : html,css,jquery</p>
+                    <p>제작 기간 : 1주</p>
+                    <p>개인 프로젝트(100%)</p>
+                    <p>lotte world 홈페이지를 클론 코딩 작업을 했습니다.</p>
+                    <a class="readMoreBtn" href="https://adxu9v.github.io/lotte/" target="_blank">READ MORE</a>
+                </div>
+            </li>
+            <li>
+                <img src="oculus_main.png" alt="oculusMainImg" class="listImg">
+                <div class="listContentBox">
+                <h2>oculus</h2>
+                <p>사용 언어 : html,css,jquery</p>
+                <p>제작 기간 : 2주</p>
+                <p>개인 프로젝트(100%)</p>
+                <p>가상현실 기기 오큘러스의 홈페이지를 스크롤 애니메이션 위주로 리메이크 작업을 했습니다.</p>
+                <a class="readMoreBtn" href="http://jhw.dothome.co.kr/oculus/" target="_blank">READ MORE</a>
+            </div>
+            </li>
+            <li>
+                <img src="movieAppImg.jpg" alt="reactMovieAppImg" class="listImg">
+                <div class="listContentBox">
+                <h2>react movie app</h2>
+                <p>사용 언어 : html,css,javascript,react</p>
+                <p>제작 기간 : 1주</p>
+                <p>개인 프로젝트(100%)</p>
+                <p>jquery가 아닌 순수 javascript, react를 사용을 하여 반응형 홈페이지로 작업을 하였고, tmdb api에서 데이터를 가져와 작업을 진행했습니다.</p>
+                <a class="readMoreBtn" href="https://adxu9v.github.io/reactMovieApp/" target="_blank">READ MORE</a>
+            </div>
+            </li>
+            <li>
+                <img src="bts.jpg" alt="btsImg" class="listImg">
+                <div class="listContentBox">
+                <h2>bts</h2>
+                <p>사용 언어 : html,css,jquery</p>
+                <P>제작 기간 : 1주</P>
+                <p>개인 프로젝트(100%)</p>
+                <p>bts 홈페이지를 모바일 버전으로 작업을 했습니다.</p>
+                <a class="readMoreBtn" href="https://adxu9v.github.io/bts_mobile/" target="_blank">READ MORE</a>
+                </div>
+            </li>
+            <li>
+                <img src="portfolio_img.jpg" alt="portfolioImg" class="listImg">
+                <div class="listContentBox">
+                <h2>portfolio site</h2>
+                <p>사용 언어 : html,css,jquery,sass</p>
+                <P>제작 기간 : 3일</P>
+                <p>개인 프로젝트(100%)</p>
+                <p>이력서 portfolio 사이트로, css 전처리기 sass로 작업을 진행했으며 css 최신 문법인 flex, sticky등을 사용 하여 작업을 하였습니다.</p>
+                <a class="readMoreBtn" href="http://jhw.dothome.co.kr/oculus/" target="_blank">READ MORE</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <div>
+            <h2>thank you for watching!
+                읽어주셔서 감사합니다!
+            </h2>
+            <address>
+                <ul>
+                <li>e-mail : jjsu4852@naver.com</li>
+                <li>phone number : 010-4809-7442</li>
+                <li>adress : 경기도 의정부시 녹양동</li>
+            </ul></address>
+            <p>궁금하신 점이 있으시면 언제든 연락주세요!</p>
+        </div>
+    </footer>
+</body>
+</html>
